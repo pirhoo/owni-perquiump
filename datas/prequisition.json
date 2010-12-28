@@ -1,0 +1,74 @@
+{
+	"cheque":{
+		"title":"Les chèques de Mamie Zinzin",
+		"type":"videotext",
+		"link":"http://www.youtube.com/v/d9oeXUC6FwQ?fs=1&amp;hl=fr_FR",
+		"comment":"Au moins 150.000€ seraient passés a l'UMP dans des enveloppes. Que va-t-on encore découvrir?",
+	},
+	"promesses":{
+		"title":"Les promesses oubliées de Nicolas Sarkozy",
+		"type":"framedaily",
+		"link":"http://www.dailymotion.com/videozap/playlist/x1eo7o_SuperSonia99_les-promesses-oubliees-de-sarko#videoId=x7jfsj?rows=3&auto=1&large=1",
+		"comment":"Oups. A l'UMP on aimerait bien que ces promesses non tenues ne ressortent pas du placard...",
+	},
+	"derapage":{
+		"title":"Le best of des derapages vidéos",
+		"type":"framedaily",
+		"link":"http://www.dailymotion.com/videozap/playlist/x1eo2b_SuperSonia99_derapages-de-l-ump#videoId=xbcwg0?rows=3&auto=1&large=1",
+		"comment":"Avec le débat sur l'identité nationale, les masques tombent et le racisme sort au grand jour.",
+	},
+	"woerth":{
+		"title":"Les meilleurs mensonges d'Eric Woerth",
+		"type":"image",
+		"link":"/images/pearl.jpg",
+		"comment":"De fil en aiguille, tous les mensonges d'Eric Woerth tombent les uns aprés les autres... Comment leur faire confiance  ?<br /><a target=\"_blank\" href=\"http://www.pearltrees.com/#/N-u=1_127027&N-p=9525760&N-s=1_1370380&N-f=1_1370380\">PearlTrees</a>",
+	},
+	"france":{
+		"title":"",
+		"type":"image",
+		"link":"/images/carte_france_departement.jpg",
+		"comment":"Pour les régionales de 2010, l'UMP visait la victoire dans \"une dizaine de régions\"",
+	},
+	"lipdub":{
+		"title":"Le lipdub",
+		"type":"video",
+		"link":"http://www.youtube.com/v/f_HMEufF05w?fs=1&amp;hl=fr_FR",
+		"comment":"En pleine crise, l'UMP chante... et se fait condamner à 3000 euros pour atteinte au droit à l'image.",
+	},
+	"telephone":{
+		"title":"Le téléphone rouge avec le procureur Courroye",
+		"type":"image",
+		"link":"/images/telephone.jpg",
+		"comment":"Pratique d'avoir un \"ami\" procureur au tribunal du 92. Ca évite les ennuis.",
+	},
+	"fax":{
+		"title":"Attention, perquisition dans 24 H",
+		"type":"image",
+		"link":"/images/fax.jpg",
+		"comment":"L'UMP se fait perquisitionner, mais on les previent avant.",
+	},
+	"fax_bis":{
+		"title":"Attention, perquisition dans 24 H",
+		"type":"image",
+		"link":"/images/fax.jpg",
+		"comment":"L'UMP se fait perquisitionner, mais on les previent avant.",
+	},
+	"adherents":{
+		"title":"Le compteur des adhérents qui chute...",
+		"type":"image",
+		"link":"/images/adherents.jpg",
+		"comment":"Plus de 64000 adhérents n'ont pas ré-adhéré en 2009..Dans l'UMP vide et divisee on craint l'hécatombe pour 2010.",
+	},
+	"riposte":{
+		"title":"3615 IRIPOSTE",
+		"type":"image",
+		"link":"/images/riposte.jpg",
+		"comment":"Habituée à se faire laminer sur internet, l'UMP continue dans sa lancée avec le flop d'iRiposte. La gauchosphere rigole.",
+	},
+	"langage":{
+		"title":"",
+		"type":"image",
+		"link":"/images/langage.jpg",
+		"comment":"Non ce n'était pas une perquisition! GoogleAds à l'appui <a target=\"_blank\" href=\"http://www.rue89.com/mon-oeil/2010/09/10/lump-achete-le-mot-cle-perquisition-sur-google-165998\">Lire l'article</a>",
+	}
+}

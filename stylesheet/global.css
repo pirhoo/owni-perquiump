@@ -1,0 +1,248 @@
+@import url(./reset.css);
+
+body {
+	font: normal 12px Georgia, Arial, Verdana, sans-serif;
+	color: #000000;
+	background: #555;
+}
+
+.fleft { float: left; }
+.fcenter { margin: 0 auto; }
+.fright { float: right; }
+
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.tj { text-align: justify; }
+
+.breaker {
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#application {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: transparent url(/images/ump.jpg) 0 0 no-repeat;
+	    box-shadow:0px 5px 50px black;
+    -webkit-box-shadow:0px 5px 50px black;
+    -khtml-box-shadow:0px 5px 50px black;
+    -moz-box-shadow:0px 5px 50px black;
+
+    -moz-border-radius:5px;
+}
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	z-index: 1;
+	background: transparent;
+}
+#overloader {
+	display: block;
+	width: 747px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 60px;
+	z-index: 9999;
+	background: transparent url(/images/bg_box.jpg) center center repeat-x;
+}
+
+#step1, #step2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: 800px;
+	height: 600px;
+}
+
+#step1 {
+	background: transparent url(/images/ump.jpg) 0 0 no-repeat;
+}
+#step2 {
+	display: block;
+	background: transparent url(/images/ump.jpg) 0 0 no-repeat;
+}
+#banner {
+	poisition: absolute;
+	top: 0;
+	wdith: 100%;
+	height: 147px;
+	display: block;
+	background: transparent url(/images/banner.png) 0 0 no-repeat;
+}
+
+.ct_global {
+	position: relative;
+	overflow: hidden;
+	font: normal 13px "Trebuchet Ms", Arial, sans-serif;
+	color: #3e3d40;
+}
+.ct_global h3 {
+	display: block;
+	font: normal 15px Georgia, Arial, sans-serif;
+	margin-bottom: 4px;
+}
+.ct_full {
+	width: 755px;
+}
+.ct_text {
+	float: left;
+	width: 260px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.ct_image {
+	float: left;
+	width: 480px;
+	height: 385px;
+}
+a.source {
+	display: block;
+	text-transform: uppercase;
+	font: bold 13px "Trebuchet Ms", Arial, sans-serif;
+	color: #d30050;
+	margin-top: 10px;
+}
+a#closelnk {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font: normal 11px "Trebuchet Ms", Arial, sans-serif;
+	color: #d30050;
+	text-decoration: none;
+}
+
+
+
+.iconos {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+
+#cheque {
+	background: transparent url(/images/iconos/cheque.png) 0 0 no-repeat; width: 151px; height: 64px;
+	top: 465px;
+	left: 186px
+}
+a#cheque:hover {	background: transparent url(/images/iconos/cheque_on.png) 0 0 no-repeat; }
+#promesses {
+	background: transparent url(/images/iconos/promesses.png) 0 0 no-repeat; width: 118px; height: 288px;
+	top: 145px;
+	left: 695px
+}
+a#promesses:hover { background: transparent url(/images/iconos/promesses_on.png) 0 0 no-repeat;
+	top: 145px;
+	left: 693px }
+#derapage {
+	background: transparent url(/images/iconos/derapage.png) 0 0 no-repeat; width: 161px; height: 145px;
+	top: 249px;
+	left: 23px
+}
+a#derapage:hover { background: transparent url(/images/iconos/derapage_on.png) 0 0 no-repeat; }
+#woerth {
+	background: transparent url(/images/iconos/woerth.png) 0 0 no-repeat; width: 160px; height: 97px;
+	top: 374px;
+	left: 566px
+}
+a#woerth:hover { background: transparent url(/images/iconos/woerth_on.png) 0 0 no-repeat; }
+#france {
+	background: transparent url(/images/iconos/france.png) 0 0 no-repeat; width: 133px; height: 153px;
+	top: 171px;
+	left: 212px
+}
+a#france:hover { background: transparent url(/images/iconos/france_on.png) 0 0 no-repeat; }
+#lipdub {
+	background: transparent url(/images/iconos/lipdub.png) 0 0 no-repeat; width: 143px; height: 171px;
+	top: 272px;
+	left: 486px
+}
+a#lipdub:hover { background: transparent url(/images/iconos/lipdub_on.png) 0 0 no-repeat; }
+#telephone {
+	background: transparent url(/images/iconos/telephone.png) 0 0 no-repeat; width: 80px; height: 53px;
+	top: 389px;
+	left: 432px
+}
+a#telephone:hover { background: transparent url(/images/iconos/telephone_on.png) 0 0 no-repeat; }
+#fax {
+	background: transparent url(/images/iconos/fax.png) 0 0 no-repeat; width: 167px; height: 119px; 
+	top: 398px;
+	left: 37px
+}
+a#fax:hover { background: transparent url(/images/iconos/fax_on.png) 0 0 no-repeat; }
+#fax_bis {
+	background: transparent url(/images/iconos/fax_bis.png) 0 0 no-repeat; width: 98px; height: 122px; 
+	top: 312px;
+	left: 154px
+}
+a#fax_bis:hover {	background: transparent url(/images/iconos/fax_bis_on.png) 0 0 no-repeat; }
+#adherents {
+	background: transparent url(/images/iconos/adherents.png) 0 0 no-repeat; width: 215px; height: 169px;
+	top: 95px;
+	left: 0px
+}
+a#adherents:hover { background: transparent url(/images/iconos/adherents_on.png) 0 0 no-repeat;
+top: 95px;
+left: 2px }
+#riposte {
+	background: transparent url(/images/iconos/riposte.png) 0 0 no-repeat; width: 165px; height: 222px;
+	top: 54px;
+	left: 493px;
+}
+a#riposte:hover {	background: transparent url(/images/iconos/riposte_on.png) 0 0 no-repeat; }
+#langage {
+	background: transparent url(/images/iconos/langage.png) 0 0 no-repeat; width: 131px; height: 224px;
+	top: 197px;
+	left: 338px;
+}
+a#langage:hover {	background: transparent url(/images/iconos/langage_on.png) 0 0 no-repeat; }
+
+
+#footer {
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
+	padding-top: 9px;
+	height: 88px;
+	background: transparent url(/images/bg_footer.png) 0 0 repeat-x;
+}
+
+	.sharing {
+		position:relative;
+		bottom:-7px;
+		overflow: hidden;
+		background: transparent url(/images/logo_ps.gif) right 0 no-repeat;
+		color: #fff;
+		height: 85px;
+		margin: 0 10px;
+	}
+	.sharing a {color: #fff;}
+	
+	.sharing span.share {
+		dislay: block;
+		float: left;
+		height: 28px;
+		line-height: 28px;
+		margin-right: 10px;
+	}
+	
+	
